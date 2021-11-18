@@ -9,13 +9,15 @@ export const UseCallback = () => {
   const increment = () => setC(c => c + delta);
 
 
-  return (<div>
-    <div> Delta is {delta} </div>
-    <div> Counter is {c} </div>
-    <br/>
+  return (
     <div>
-      <Button onClick={incrementDelta}>Increment Delta</Button>
-      <Button onClick={increment}>Increment Counter</Button>
+      <div> Delta is {delta} </div>
+      <div> Counter is {c} </div>
+      <br />
+      <div>
+        <Button onClick={incrementDelta}>Increment Delta</Button>
+        <Button onClick={increment}>Increment Counter</Button>
+      </div>
     </div>
-  </div>)
+  );
 }

@@ -10,7 +10,8 @@ export function UseMemo() {
     };
     
     const onClick = () => setInc(i => i + 1);
-
+    
+    console.log("new render!");
     return (
         <div>
             Factorial of
