@@ -3,13 +3,20 @@ import './App.css';
 import { UseMemo } from './components/UseMemo';
 import { UseCallback } from './components/UseCallback';
 import { UseRef } from './components/UseRef';
+import { FirstIssues } from './components/FirstIssues';
+import { SecondIssuesParent } from './components/SecondIssuesParent';
 
 function App() {
   return (
-    // <div>hello world</div>
-    // <UseRef />
-    // <UseMemo />
-    <UseCallback />
+    <div className="App">
+
+      <FirstIssues />
+      {/* <SecondIssuesParent /> */}
+      {/* <UseRef /> */}
+      {/* <UseMemo /> */}
+      {/* <UseCallback /> */}
+    </div>
+
   );
 }
 
